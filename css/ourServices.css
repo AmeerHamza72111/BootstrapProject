@@ -1,0 +1,683 @@
+@font-face {
+    font-family:Dosis;
+    src: url(fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+
+/* Container 1 NAVBAR */
+
+#nav {
+    padding: 0.8% 7%;
+}
+
+#logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: white !important;
+}
+
+.bar {
+    color: white;
+    font-family:Dosis;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.bar:hover {
+    background-color: rgb(150, 152, 152);
+    border-radius: 50px;
+}
+
+
+.phone {
+    font-family:Dosis;
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#login {
+    font-family:Dosis;
+    background-color: rgb(154, 149, 149);
+    border-radius: 40px;
+    font-size: 12px;
+    color: white;
+    margin-left: 0px;
+    width: 70px;
+    height: 30px;
+}
+
+#sign {
+    font-family:Dosis;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: black;
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+/*contianer page content */
+
+.black-box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+#txt1ID {
+    font-size: xx-large
+}
+
+.class1font
+{
+    font-family:Dosis;
+}
+/*meet our team container*/
+
+.team-container {
+
+    padding-top: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+
+}
+
+.adjustCenID {
+    display: flex;
+    justify-content: center;
+}
+
+
+.member-name {
+    font-weight: bold;
+    margin-top: 35px;
+    color: white;
+}
+
+.member-description {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.team-member {
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.team-member img {
+    margin-top: 10px;
+    max-width: auto;
+    border-radius: 2%;
+    transition: transform 0.3s, filter 0.3s;
+    margin-bottom: 20px;
+
+
+}
+
+.team-member .overlay {
+    position: absolute;
+    top: 45;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.team-member .overlay-circle {
+
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.team-member .overlay i {
+    color: white;
+    font-size: 36px;
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.7);
+    /* Darken the image */
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+}
+
+.check {
+    position: absolute;
+    top: 205;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.3s;
+    margin-left: 10px;
+
+}
+
+.team-member:hover .check {
+    opacity: 0;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background: none;
+    border: 1px solid rgb(225, 225, 225);
+    font-size: 18px;
+    padding: 2px 10px;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    height: 40px;
+}
+
+.pagination .page:not(.active),
+.pagination .prev:not(:disabled),
+.pagination .next:not(:disabled) {
+    color: rgb(55, 54, 54);
+    /* Change the color for non-active elements to gray */
+}
+
+.pagination .active {
+    color: white;
+    background-color: black;
+}
+
+#con222 {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1440px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+        font-weight: bold;
+        margin-top: -55px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .member-description {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .check {
+
+        top: 160;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+        font-weight: bold;
+        margin-top: -55px;
+        color: white;
+        font-size: 17px;
+    }
+
+    .member-description {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .check {
+
+        top: 113;
+
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+        font-weight: bold;
+        margin-top: -65px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .member-description {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .check {
+
+        top: 290;
+
+    }
+
+
+}
+
+
+@media screen and (max-width :525px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+
+        margin-top: -65px;
+
+    }
+
+    .member-description {
+
+        margin-bottom: 10px;
+    }
+
+    .check {
+
+        top: 220;
+
+    }
+
+}
+
+@media screen and (max-width :425px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+        font-weight: bold;
+        margin-top: -65px;
+        color: white;
+    }
+
+    .member-description {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .check {
+
+        top: 210;
+
+
+    }
+
+}
+
+@media screen and (max-width :375px) {
+    #con222 {
+        width: 100%;
+
+    }
+
+    .member-name {
+        font-weight: bold;
+        margin-top: -65px;
+        color: white;
+    }
+
+    .member-description {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .check {
+
+        top: 160;
+
+    }
+
+}
+
+
+
+/*footer.....*/
+
+#cont15 {
+    background-color: black;
+    padding: 0% 15%;
+}
+
+#logo2 {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.phone1 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+.Number {
+    font-family:Dosis;
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.JK2 {
+    font-family:Dosis;
+    color: white;
+    font-size: 16px;
+
+}
+
+#ul {
+    list-style: none;
+    margin-left: -43px;
+
+}
+
+.JK3 {
+    font-family:Dosis;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.JK3:hover {
+    color: white;
+}
+
+#BTM {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+#BTM1 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+#btn {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+
+#apple {
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+#lin1 {
+    font-size: 20px;
+    margin-top: -27px;
+    margin-right: 60px;
+    color: rgb(122, 128, 128);
+}
+
+#IK2 {
+    font-family:Dosis;
+    margin-left: 40px;
+    margin-top: -45px;
+    font-size: 9px;
+    color: gainsboro;
+}
+
+#IK3 {
+    font-size: 12px;
+    color: white;
+    margin-left: 40px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+#btn1 {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+#cont16 {
+    max-width: 100%;
+    padding: 0% 15%;
+    background-color: black;
+}
+
+.KK {
+    font-family:Dosis;
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+/* #KKK{
+        font-family:DMsanR;
+        color: white;
+        font-size: 12px;
+       
+    } */
+.KK1 {
+    font-family:Dosis;
+    color: white;
+    font-size: 10px;
+
+}
+
+.ger {
+    border: 1px solid white;
+}
+
+#GER {
+    font-size: 10px;
+    border-radius: 50px;
+    color: white;
+    width: 80px;
+    background-color: #000000;
+    margin-left: 5px;
+
+}
+
+
+#eng {
+    font-size: 9px;
+
+}
+
+#English {
+    font-size: 10px;
+    background-color: rgb(105, 103, 103);
+    border-radius: 50px;
+    color: white;
+    width: 70px;
+}
+
+#endbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* #k2k2{
+        text-align: center;
+        display: none;
+    } */
+
+.footer-hr {
+    border: 0.5px solid rgb(61, 59, 44);
+
+}
+
+@media screen and (max-width:883px) {
+    #KKK {
+        display: none;
+    }
+
+    #k2k2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:570px) {
+    #Number {
+        display: none;
+    }
+
+    #phone1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #cont2 {
+        padding: 0% 5%;
+
+    }
+
+    #cont3 {
+        padding: 0% 5%;
+    }
+
+    #cont15 {
+        padding: 0% 5%;
+    }
+
+    #cont155 {
+        padding: 0% 5%;
+    }
+
+    #cont16 {
+        padding: 0% 5%;
+    }
+
+    #KK {
+        font-family:Dosis;
+        color: white;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    #GER {
+        font-size: 10px;
+        border-radius: 50px;
+        color: white;
+        width: 80px;
+        background-color: #000000;
+        margin-left: 5px;
+
+    }
+}
+
+@media screen and (max-width:376px) {
+    #cont2 {
+        padding: 0% 5%;
+    }
+
+    #cont3 {
+        padding: 0% 5%;
+    }
+
+    #cont15 {
+        padding: 0% 5%;
+    }
+
+    #cont155 {
+        padding: 0% 5%;
+    }
+
+    #cont16 {
+        padding: 0% 5%;
+    }
+
+    #KK {
+        font-size: 8px
+    }
+}
+
+@media screen and (max-width:320px) {
+    #cont222 {
+        padding: 0% 5%;
+    }
+
+    #cont3 {
+        padding: 0% 5%;
+    }
+
+    #cont15 {
+        padding: 0% 5%;
+    }
+
+    #cont155 {
+        padding: 0% 5%;
+    }
+
+    #cont16 {
+        padding: 0% 5%;
+    }
+
+    #KK {
+        font-size: 8px
+    }
+}

@@ -1,0 +1,488 @@
+<html>
+
+<head>
+
+    <title>Order Detail</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Add Bootstrap JavaScript and jQuery from CDN (required for some Bootstrap features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/orderDetail.css">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/1019421737.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <a href="#"><img src="images/hathways-limosines.png" id="logo" alt="Avatar"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Our Fleet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bar" aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <a href="#"><i class="fa fa-phone" style="color: white;"></i></a>
+                <p class="phone">49(0)6926022180</p>
+
+
+                <a href="#"><i class="fa-solid fa-globe" style="color: white;"></i></a>
+                <p class="phone">GER</p>
+                <button class="btn" id="login" type="submit">Login</button>
+                <button class="btn" id="sign" type="submit">Sign up</button>
+
+                <a href="#"><i class="fa-solid fa-bars" style="color: white; " id="twobar"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container class1font" id="cont2">
+        <div class="row">
+            <div class="col text-center">
+                <div class="mdclass">
+                    <i class="fa-solid fa-circle-check sucIConID" id="" style="color: #b13f2b"></i>
+                </div>
+                <div class="row">
+                    <div class="col text-center text1ID">
+                        <p>System, Your order was submitted successfully!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center text2ID">
+                        <p>Booking details has been sent to: booking@HATHWAYLIMOUSINES.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container adjustCenID class1font">
+        <div class="col-md-8">
+            <div class="table-responsive" id="order-info">
+                <table class="table table-borderless text-center">
+                    <thead>
+                        <tr id="tbHlID">
+                            <td scope="col">Order Number</td>
+                            <td scope="col">Date</td>
+                            <td scope="col">Total</td>
+                            <td scope="col">Payment Method</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="tbHlID2">
+                            <td scope="row">#4039</th>
+                            <td>Thus,oct,2022</td>
+                            <td>$40.10</td>
+                            <td>Direct Bank Transfer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <div class="container adjustCenID class1font">
+
+        <div class="col-md-8">
+            <div id="reservation-container">
+                <div class=" mx-auto text-center">
+                    <p class="text-left font-weight-bold headingID">Reservation Information</p>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Pick up Address</p>
+                            </div>
+                            <div>
+                                <p>123 Main St, City, State</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Drop off Address</p>
+                            </div>
+                            <div>
+                                <p>456 Elm St, City, State</p></div>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+
+                            <div>
+                                <p>Pick Up date</p>
+                            </div>
+                            <div>
+                               <p> thu,Oct 06,2022</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Pick Up Time</p>
+                            </div>
+                            <div>
+                               <p> 6 PM:15</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Distance</p>
+                            </div>
+                            <div>
+                               <p> 331 km/194miles</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Time</p>
+                            </div>
+                            <div>
+                                <p>3h 43m</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container adjustCenID class1font">
+        <div class="col-md-8">
+            <div class="car-container">
+                <p class="text-left font-weight-bold">Selected Car</p>
+                <img src="images/businessclass.jpg" alt="Car" class="car-picture">
+                <div class="car-info">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p>Class</p>
+                        </div>
+                        <div>
+                            <p>Business Class
+                            </p>
+                        </div>
+                    </div>
+                    <hr id="hrID">
+                </div>
+                <div class="car-info">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p>Cars</p>
+                        </div>
+                        <div>
+                            <p>Mercedes-Benz-E-Class</p>
+                        </div>
+                    </div>
+                    <hr id="hrID">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container adjustCenID class1font">
+        <div class="col-md-8">
+            <div id="passenger-container">
+                <div class=" mx-auto text-center">
+                    <p class="text-left font-weight-bold" id="headingID">Passenger Information</p>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>First Name</p>
+                            </div>
+                            <div>
+                                <p>Ali</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Last Name</p>
+                            </div>
+                            <div>
+                                <p>Tufan</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+
+                            <div>
+                                <p>Email</p>
+                            </div>
+                            <div>
+                                <p>creativelayers088@gmail.com</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Phone</p>
+                            </div>
+                            <div>
+                                <p>+456646545</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Address line 1</p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Address line 2</p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>City</p>
+                            </div>
+                            <div>
+                                <p>London</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>State/Province/Region</p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Zip code/Postal code </p>
+                            </div>
+                            <div>
+                                <p>97875</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Country</p>
+                            </div>
+                            <div>
+                                <p>UK</p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                    <div class="reservation-info">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p>Speacial Requirements</p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <hr id="hrID">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- FOOTER          -->
+    <div class="container-fluid" id="cont15">
+
+        <div class="row justify-content-between">
+            <div class="col-md-2 ">
+                <img src="images/hathways-limosines.png" id="logo2" alt="Avatar">
+            </div>
+
+            <div class="col-md-4">
+                <a href="#"><i class="fa fa-phone phone1" style="color: white;" id=""></i></a>
+                <span class="mx-1 Number" id="">+49 (0) 69 26022180</span>
+            </div>
+
+            <div class="col-md-5 mt-4 d-flex justify-content-md-end ">
+                <span class="mx-1 Number" id="">Follow Us</span>
+                <a href="#"><i class="fa-brands fa-facebook mx-2 " style="color: white; display: inline-block;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter mx-2" style="color: white; display: inline-block; "></i></a>
+                <a href="#"><i class="fa-brands fa-instagram mx-2" style="color: white; display: inline-block;"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin mx-2" style="color: white; display: inline-block;"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-hr">
+
+
+        <div class="row justify-content-between">
+            <div class="col">
+                <p class="JK2">Company</p>
+                <ul id="ul">
+                    <li><a class="nav-link JK3" href="#">About us</a></li>
+                    <li><a class="nav-link JK3" href="#">Our offerings</a></li>
+                    <li><a class="nav-link JK3" href="#">Newroom us</a></li>
+                    <li><a class="nav-link JK3" href="#">Investors</a></li>
+                    <li><a class="nav-link JK3" href="#">Blogs</a></li>
+                    <li><a class="nav-link JK3" href="#">Career</a></li>
+                    <li><a class="nav-link JK3" href="#">Gift cards</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="JK2">Top Cities</p>
+                <ul id="ul">
+                    <li><a class="nav-link JK3" href="#">New York</a></li>
+                    <li><a class="nav-link JK3" href="#">London</a></li>
+                    <li><a class="nav-link JK3" href="#">Berlin</a></li>
+                    <li><a class="nav-link JK3" href="#">Los Angeles</a></li>
+                    <li><a class="nav-link JK3" href="#">Paris</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="JK2">Explore</p>
+                <ul id="ul">
+                    <li><a class="nav-link JK3" href="#">Intercity Rides</a></li>
+                    <li><a class="nav-link JK3" href="#">Limousine Service</a></li>
+                    <li><a class="nav-link JK3" href="#">Chauffeur Service</a></li>
+                    <li><a class="nav-link JK3" href="#">Private Car Service</a></li>
+                    <li><a class="nav-link JK3" href="#">Ground Transportation</a></li>
+                    <li><a class="nav-link JK3" href="#">Airport Transfer</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="JK2">Classes</p>
+                <ul id="ul">
+                    <li><a class="nav-link JK3" href="#">Business</a></li>
+                    <li><a class="nav-link JK3" href="#">First</a></li>
+                    <li><a class="nav-link JK3" href="#">XL</a></li>
+                    <li><a class="nav-link JK3" href="#">Assistant</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="JK2">Download The App</p>
+                <div class="d-flex flex-column justify-content-md-end">
+                    <button type="button" class="btn-dark" id="BTM"><a href="#"><i class="fa-brands fa-apple" id="apple"
+                                style="color:white"></i></a>
+                        <p id="lin1"> | </p>
+                        <p id="IK2">Download on the</p>
+                        <p id="IK3">Apple Store</p>
+                    </button>
+                    <button type="button" class="btn-dark" id="BTM1"><a href="#"><i class="fa-brands fa-google-play"
+                                id="apple" style="color:white"></i></a>
+                        <p id="lin1"> | </p>
+                        <p id="IK2">Get in on</p>
+                        <p id="IK3">Play Store</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row justify-content-between">
+            <div class="col-3">
+                <p class="KK"> @ 2023 HATHWAY-LIMOUSINES</p>
+            </div>
+
+            <div class="col mt-4">
+                <ul style="list-style: none; padding: 0;">
+                    <li class="KK1" style="display: inline-block; padding-right: 8px;">Terms</li>
+                    <li class="KK1" style="display: inline-block; padding-right: 8px;">Privacy policy</li>
+                    <li class="KK1" style="display: inline-block; padding-right: 8px;">Legal notice</li>
+                    <li class="KK1" style="display: inline-block; padding-right: 8px;">Accessibility</li>
+                </ul>
+            </div>
+
+            <div class="col-4 d-flex justify-content-md-end mt-4">
+                <div class="">
+                    <button class="btn btn-dark" id="GER" type="submit"><i class="fa-solid fa-location-dot" id="eng"
+                            style="color: white"></i> Germany
+                    </button>
+                    <button class="btn btn-dark" id="English" type="submit">
+                        <i class="fa-solid fa-earth-americas" id="eng" style="color: white"></i> English
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

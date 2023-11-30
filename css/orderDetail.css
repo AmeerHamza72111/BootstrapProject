@@ -1,0 +1,460 @@
+@font-face {
+    font-family:Dosis;
+    src: url(fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+
+     /* Container 1 NAVBAR */
+
+#nav{
+    padding: 0.8% 7%;
+}
+#logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: white !important;
+}
+
+ .bar{ 
+    color: white;
+    font-family: Dosis;
+    margin-left: 10px;
+    font-size: 14px; 
+}
+ .bar:hover{
+    background-color: rgb(150, 152, 152);
+    border-radius: 50px;
+} 
+
+
+ .phone{ 
+    font-family: Dosis;
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#login{
+    font-family: Dosis;
+    background-color: rgb(154, 149, 149);
+    border-radius: 40px;
+    font-size: 12px;
+    color: white;
+    margin-left: 0px;
+    width: 70px;
+    height: 30px;
+   
+
+    
+}
+#sign{
+    font-family: Dosis;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: black;
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+/* NAV END  */
+
+#cont2 {
+    max-width: 100%;
+    padding: 2%;
+    font-family: Dosis;
+}
+.class1font
+{
+    font-family: Dosis;
+}
+
+.sucIConID
+{
+    align-items: center;
+    margin-top: 20px;
+    font-size: 65px;
+    
+}
+.text1ID
+{
+    margin-top: 20px;
+   font-weight: 600;
+   font-size:28px; 
+}
+.text2ID
+{
+   font-weight: 400;
+   font-size:small;
+   color:gray;
+    
+}
+#order-info {
+    
+    background-color: #f0f0f0; 
+    border: 2px dashed grey; 
+    border-radius: 10px; 
+    align-items: center;
+    padding-top: 20px;
+}
+#tbHlID
+{
+    font-family: Dosis;
+    font-size: 14px;
+    font-weight: 500;
+}
+#tbHlID2
+{
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.adjustCenID
+{
+    display: flex;
+    justify-content: center;
+}
+#reservation-container {
+    margin-top: 30px;
+    border: 1px solid silver; 
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+    font-family: Dosis;
+    
+   
+}
+p{
+ font-weight: 500;
+}
+.reservation-info
+{
+    
+    margin-bottom: 0rem;
+    margin-top: 10px;
+    font-family: Dosis;
+    font-size: 14px;
+    
+}
+
+
+.car-container {
+    margin-top: 30px;
+    border: 1px solid silver; 
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    font-family: Dosis;
+    
+}
+
+.car-picture {
+    max-width: 100%; 
+    margin-bottom: 30px;
+}
+
+.car-info
+{
+    margin-bottom: 0rem;
+    margin-top: 10px;
+    font-family: Dosis;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#hrID
+{
+    margin:1px;
+}
+.headingID
+{
+    margin-bottom: 30px;
+}
+#passenger-container {
+    margin-top: 30px;
+    border: 1px solid silver; 
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+    margin-bottom: 150px;
+    font-family: Dosis;
+   
+}
+
+
+/*footer.....*/
+
+#cont15{
+    background-color: black;
+    padding: 0% 15%;
+}
+#logo2{
+    margin-top: 20px;
+width: 100px;
+height: 30px;
+margin-bottom: 20px;
+}
+.phone1{
+margin-bottom: 20px;
+font-size: 12px;
+margin-top: 30px;
+
+}
+.Number{
+    font-family:DMsanR;
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.JK2{
+    font-family:DMsanR;
+    color: white;
+    font-size: 16px;
+   
+}
+#ul{
+    list-style: none;
+margin-left: -43px;
+    
+}
+
+.JK3{
+    font-family:DMsanR;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300;
+    list-style: none;
+}
+.JK3:hover{
+    color: white;
+}
+
+ #BTM{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  
+}
+#BTM1{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+ 
+} 
+#btn{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+#apple{
+    font-size: 20px;
+margin-right: 100px;   
+margin-top: 5px; 
+}
+#lin1{
+font-size: 20px;
+margin-top: -27px;
+margin-right: 60px;  
+color: rgb(122, 128, 128);
+}
+#IK2{
+    font-family:DMsanR;
+    margin-left: 40px;
+    margin-top: -45px;
+    font-size: 9px;
+    color: gainsboro;
+    }
+    #IK3{
+        font-size: 12px;
+        color: white;
+        margin-left: 40px;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+#btn1{
+        height: 45px;
+        width: 150px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+
+    #cont16{
+        max-width: 100%;
+        padding: 0% 15%;
+        background-color: black;
+    }
+    .KK{
+        font-family:DMsanR;
+        color: white;
+        font-size: 12px;
+        margin-top: 30px;
+       
+    }
+    /* #KKK{
+        font-family:DMsanR;
+        color: white;
+        font-size: 12px;
+       
+    } */
+    .KK1{
+        font-family:DMsanR;
+        color: white;
+        font-size: 10px;
+        
+    }
+    .ger{
+        border: 1px solid white;
+    }
+    #GER{
+        font-size: 10px;
+        border-radius: 50px;
+        color: white;
+        width: 80px;
+        background-color: #000000;
+        margin-left: 5px;
+  
+    }
+
+    
+    #eng{
+    font-size: 9px;
+
+    }
+    
+    #English{
+        font-size: 10px;
+            background-color: rgb(105, 103, 103);
+            border-radius: 50px;
+            color: white;
+            width: 70px;  
+    }
+    #endbutton{
+      display: flex;
+      justify-content: flex-end;
+    }
+    /* #k2k2{
+        text-align: center;
+        display: none;
+    } */
+
+    .footer-hr{
+        border: 0.5px solid rgb(61, 59, 44);
+    
+    }
+
+
+    @media screen and (max-width:989px) {
+        #cont2 , #cont3{
+            padding: 0 7%;
+        }
+    }
+    
+@media screen and (max-width:883px) 
+{
+    #KKK{
+        display: none;
+    }
+    #k2k2{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:500px) 
+{
+    #cont2{
+        padding: 0% 5%;
+       }
+       #cont3{
+        padding: 0% 5%;
+       }
+       #cont15{
+        padding: 0% 5%; 
+       }
+       #cont155{
+        padding: 0% 5%;
+       }
+       #cont16{
+        padding: 0% 5%; 
+       }
+    #KK{
+        font-family:DMsanR;
+        color: white;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    #GER{
+        font-size: 10px;
+        border-radius: 50px;
+        color: white;
+        width: 80px;
+        background-color: #000000;
+        margin-left: 5px;
+  
+    }
+    .reservation-info{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:376px) 
+{
+   #cont2{
+    padding: 0% 5%;
+   }
+   #cont3{
+    padding: 0% 5%;
+   }
+   #cont15{
+    padding: 0% 5%; 
+   }
+   #cont155{
+    padding: 0% 5%;
+   }
+   #cont16{
+    padding: 0% 5%; 
+   }
+   #KK{
+    font-size: 8px
+   }
+}
+@media screen and (max-width:320px) 
+{
+   #cont2{
+    padding: 0% 5%;
+   }
+   #cont3{
+    padding: 0% 5%;
+   }
+   #cont15{
+    padding: 0% 5%; 
+   }
+   #cont155{
+    padding: 0% 5%;
+   }
+   #cont16{
+    padding: 0% 5%; 
+   }
+   #KK{
+    font-size: 8px
+   }
+}
+
+

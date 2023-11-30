@@ -1,0 +1,339 @@
+<html>
+
+<head>
+
+  <title>Price Table</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add Bootstrap CSS from CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Add Bootstrap JavaScript and jQuery from CDN (required for some Bootstrap features) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link rel="stylesheet" href="css/priceTable.css">
+  <script src="priceTable.js"></script>
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/1019421737.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <a href="#"><img src="images/hathways-limosines.png" id="logo" alt="Avatar"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Our Fleet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bar" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="form-inline my-2 my-lg-0">
+        <a href="#"><i class="fa fa-phone" style="color: white;"></i></a>
+        <p class="phone">49(0)6926022180</p>
+
+
+        <a href="#"><i class="fa-solid fa-globe" style="color: white;"></i></a>
+        <p class="phone">GER</p>
+        <button class="btn" id="login" type="submit">Login</button>
+        <button class="btn" id="sign" type="submit">Sign up</button>
+
+        <a href="#"><i class="fa-solid fa-bars" style="color: white; " id="twobar"></i></a>
+      </div>
+    </div>
+  </nav>
+  <div class="black-box class1font">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p id="txt1ID">Price Table</p>
+          <p>Home-Contact</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container price-container class1font">
+    <div class="row text-left adjustCenID">
+      <div class="col-md-8">
+        <div class="row adjustCenID">
+          <p class="pricetitle">Price Table With Featured</p>
+        </div>
+        <div class="row adjustCenID">
+          <p class="mr-3">Billed Monthly</p>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          <p class="ml-3">Billed Yearly</p>
+          <p class="ml-3 txtsave20color">save 20%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container class1font">
+    <div class="row adjustCenID">
+      <div class="col-md-3 price-container2">
+        <div class="row adjustCenID">
+          <div class="col-md-6">
+            <p class="ptitle">Basic</p>
+            <p class="freeHeading">Free</p>
+            <p class="">per month</p>
+          </div>
+          <div class="col-md-3">
+            <a href="#"><i class="fa-solid fa-book fa-3x" style="color:black;"></i></a>
+          </div>
+
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-10">
+            <p class="">Standard listing Submission active for 30 days</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="custom-list">
+              <li id="listID1">Lorem ipsum dolor sit amet.</li>
+              <li id="listID1">Consectetur adipiscing elit.</li>
+              <li id="listID1">Nulla vehicula odio sed justo.</li>
+              <li id="listID1">Integer in mauris nec tellus consectetur.</li>
+              <li id="listID1">Etiam consequat lacus eu odio dictum.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-11">
+            <button type="button" class="btn btn-outline-dark w-100">Join <a href="#"><i class="fas fa-arrow-trend-up"
+                  id="arrw" style="color:black;"></i></a></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 price-container3">
+        <div class="row adjustCenID">
+          <div class="col-md-6">
+            <p class="ptitle" style="color: rgb(238, 72, 72) ;">Professional</p>
+            <p class="freeHeading">$599.95</p>
+            <p class="">per month</p>
+          </div>
+          <div class="col-md-3">
+            <a href="#"><i class="fa-regular fa-hand-point-up fa-3x" style="color:black;"></i></a>
+          </div>
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-10">
+
+            <p class="">Standard listing Submission active for 30 days</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="custom-list">
+              <li id="listID1">Lorem ipsum dolor sit amet.</li>
+              <li id="listID1">Consectetur adipiscing elit.</li>
+              <li id="listID1">Nulla vehicula odio sed justo.</li>
+              <li id="listID1">Integer in mauris nec tellus consectetur.</li>
+              <li id="listID1">Etiam consequat lacus eu odio dictum.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-11">
+            <button type="button" class="btn btn-dark w-100" style="background-color: black;">Join <a href="#"><i
+                  class="fas fa-arrow-trend-up" id="arrw" style="color:white"></i></a></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 price-container2">
+        <div class="row adjustCenID">
+          <div class="col-md-6">
+            <p class="ptitle">Business</p>
+            <p class="freeHeading">$999.95</p>
+            <p class="">per month</p>
+          </div>
+          <div class="col-md-3">
+            <a href="#"><i class="fa-solid fa-shield-halved fa-3x" style="color:black;"></i></a>
+          </div>
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-10">
+
+            <p class="">Standard listing Submission active for 30 days</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="custom-list">
+              <li id="listID1">Lorem ipsum dolor sit amet.</li>
+              <li id="listID1">Consectetur adipiscing elit.</li>
+              <li id="listID1">Nulla vehicula odio sed justo.</li>
+              <li id="listID1">Integer in mauris nec tellus consectetur.</li>
+              <li id="listID1">Etiam consequat lacus eu odio dictum.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row adjustCenID">
+          <div class="col-md-11">
+            <button type="button" class="btn btn-outline-dark w-100">Join <a href="#"><i class="fas fa-arrow-trend-up"
+                  id="arrw" style="color:Black"></i></a></button>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- FOOTER          -->
+  <div class="container-fluid" id="cont15">
+
+    <div class="row justify-content-between">
+      <div class="col-md-2 ">
+        <img src="images/hathways-limosines.png" id="logo2" alt="Avatar">
+      </div>
+
+      <div class="col-md-4">
+        <a href="#"><i class="fa fa-phone phone1" style="color: white;" id=""></i></a>
+        <span class="mx-1 Number" id="">+49 (0) 69 26022180</span>
+      </div>
+
+      <div class="col-md-5 mt-4 d-flex justify-content-md-end ">
+        <span class="mx-1 Number" id="">Follow Us</span>
+        <a href="#"><i class="fa-brands fa-facebook mx-2 " style="color: white; display: inline-block;"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter mx-2" style="color: white; display: inline-block; "></i></a>
+        <a href="#"><i class="fa-brands fa-instagram mx-2" style="color: white; display: inline-block;"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin mx-2" style="color: white; display: inline-block;"></i></a>
+      </div>
+    </div>
+
+    <hr class="footer-hr">
+
+
+    <div class="row justify-content-between">
+      <div class="col">
+        <p class="JK2">Company</p>
+        <ul id="ul">
+          <li><a class="nav-link JK3" href="#">About us</a></li>
+          <li><a class="nav-link JK3" href="#">Our offerings</a></li>
+          <li><a class="nav-link JK3" href="#">Newroom us</a></li>
+          <li><a class="nav-link JK3" href="#">Investors</a></li>
+          <li><a class="nav-link JK3" href="#">Blogs</a></li>
+          <li><a class="nav-link JK3" href="#">Career</a></li>
+          <li><a class="nav-link JK3" href="#">Gift cards</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="JK2">Top Cities</p>
+        <ul id="ul">
+          <li><a class="nav-link JK3" href="#">New York</a></li>
+          <li><a class="nav-link JK3" href="#">London</a></li>
+          <li><a class="nav-link JK3" href="#">Berlin</a></li>
+          <li><a class="nav-link JK3" href="#">Los Angeles</a></li>
+          <li><a class="nav-link JK3" href="#">Paris</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="JK2">Explore</p>
+        <ul id="ul">
+          <li><a class="nav-link JK3" href="#">Intercity Rides</a></li>
+          <li><a class="nav-link JK3" href="#">Limousine Service</a></li>
+          <li><a class="nav-link JK3" href="#">Chauffeur Service</a></li>
+          <li><a class="nav-link JK3" href="#">Private Car Service</a></li>
+          <li><a class="nav-link JK3" href="#">Ground Transportation</a></li>
+          <li><a class="nav-link JK3" href="#">Airport Transfer</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="JK2">Classes</p>
+        <ul id="ul">
+          <li><a class="nav-link JK3" href="#">Business</a></li>
+          <li><a class="nav-link JK3" href="#">First</a></li>
+          <li><a class="nav-link JK3" href="#">XL</a></li>
+          <li><a class="nav-link JK3" href="#">Assistant</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="JK2">Download The App</p>
+        <div class="d-flex flex-column justify-content-md-end">
+          <button type="button" class="btn-dark" id="BTM"><a href="#"><i class="fa-brands fa-apple" id="apple"
+                style="color:white"></i></a>
+            <p id="lin1"> | </p>
+            <p id="IK2">Download on the</p>
+            <p id="IK3">Apple Store</p>
+          </button>
+          <button type="button" class="btn-dark" id="BTM1"><a href="#"><i class="fa-brands fa-google-play" id="apple"
+                style="color:white"></i></a>
+            <p id="lin1"> | </p>
+            <p id="IK2">Get in on</p>
+            <p id="IK3">Play Store</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row justify-content-between">
+      <div class="col-3">
+        <p class="KK"> @ 2023 HATHWAY-LIMOUSINES</p>
+      </div>
+
+      <div class="col mt-4">
+        <ul style="list-style: none; padding: 0;">
+          <li class="KK1" style="display: inline-block; padding-right: 8px;">Terms</li>
+          <li class="KK1" style="display: inline-block; padding-right: 8px;">Privacy policy</li>
+          <li class="KK1" style="display: inline-block; padding-right: 8px;">Legal notice</li>
+          <li class="KK1" style="display: inline-block; padding-right: 8px;">Accessibility</li>
+        </ul>
+      </div>
+
+      <div class="col-4 d-flex justify-content-md-end mt-4">
+        <div class="">
+          <button class="btn btn-dark" id="GER" type="submit"><i class="fa-solid fa-location-dot" id="eng"
+              style="color: white"></i> Germany
+          </button>
+          <button class="btn btn-dark" id="English" type="submit">
+            <i class="fa-solid fa-earth-americas" id="eng" style="color: white"></i> English
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

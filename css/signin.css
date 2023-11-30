@@ -1,0 +1,404 @@
+
+@font-face {
+    font-family:Dosis;
+    src: url(fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+
+     /* Container 1 NAVBAR */
+
+#nav{
+    padding: 0.8% 7%;
+}
+#logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: white !important;
+}
+
+ .bar{ 
+    color: white;
+    font-family:Dosis;
+    margin-left: 10px;
+    font-size: 14px; 
+}
+ .bar:hover{
+    background-color: rgb(150, 152, 152);
+    border-radius: 50px;
+} 
+
+
+ .phone{ 
+    font-family:Dosis;
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#login{
+    font-family:Dosis;
+    background-color: rgb(154, 149, 149);
+    border-radius: 40px;
+    font-size: 12px;
+    color: white;
+    margin-left: 0px;
+    width: 70px;
+    height: 30px;
+   
+
+    
+}
+#sign{
+    font-family:Dosis;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: black;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+}
+/*page container */
+body {
+    font-family: Dosis;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+.btn1 {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn2 {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px silver solid;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.btn3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.btn4 {
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+
+
+.form-control {
+  
+    position: relative;
+    width: 100%;
+    height: 45px;
+   border-radius: 8px;
+    margin-bottom: 40px;
+    border:none !important;
+  padding: 50px;
+   color: black;
+    
+  }
+  .form-control input {
+    font-family: Dosis;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    
+    border: none;
+    outline: none;
+    height: 45px;
+     top: 0;
+    display: flex;
+    align-items: center;
+   padding-left: 15px;
+    transition: 0.4s;
+    margin-top: 0px;
+    border-radius: 8px;
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+    
+  }
+  .form-control label {
+    font-family: Dosis;
+    position: absolute;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: rgb(5, 5, 5);
+    pointer-events: none;
+  }
+  .form-control div.border-around {
+    position: absolute;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-right: 25px;
+    top: 0;
+    pointer-events: none;
+    border-radius: 6px;
+    transition: 0.2s;
+    left:0px;
+ 
+    
+    
+  }
+  
+  .form-control input:valid + label {
+   
+    top: -0.25rem;
+    left: 18px;
+    font-size: 0.9rem;
+    z-index: 100;
+    width: auto;
+    height: 0.9rem;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.3);
+    background-color:white;
+    border: none;
+  }
+  
+ 
+ 
+  .form-control input:focus + label {
+   
+    top: -0.15rem;
+    left: 20px;
+    font-size: 10px;
+    z-index: 1;
+    width: auto;
+    height: 0.9rem;
+    padding: 0px 10px;
+   
+    background-color:white;
+    color :black !important;
+  }
+  
+  .form-control input:focus  {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: white;
+    color:black !important;
+    
+  }
+  .adjustCenID
+{
+    display: flex;
+    justify-content: center;
+}
+.adjustCenID123
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+/*footer.....*/
+
+#cont15{
+    background-color: black;
+    padding: 0% 15%;
+}
+#logo2{
+    margin-top: 20px;
+width: 100px;
+height: 30px;
+margin-bottom: 20px;
+}
+.phone1{
+margin-bottom: 20px;
+font-size: 12px;
+margin-top: 30px;
+
+}
+.Number{
+    font-family:Dosis;
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.JK2{
+    font-family:Dosis;
+    color: white;
+    font-size: 16px;
+   
+}
+#ul{
+    list-style: none;
+margin-left: -43px;
+    
+}
+
+.JK3{
+    font-family:Dosis;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300;
+    list-style: none;
+}
+.JK3:hover{
+    color: white;
+}
+
+ #BTM{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  
+}
+#BTM1{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+ 
+} 
+#btn{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+#apple{
+    font-size: 20px;
+margin-right: 100px;   
+margin-top: 5px; 
+}
+#lin1{
+font-size: 20px;
+margin-top: -27px;
+margin-right: 60px;  
+color: rgb(122, 128, 128);
+}
+#IK2{
+    font-family:Dosis;
+    margin-left: 40px;
+    margin-top: -45px;
+    font-size: 9px;
+    color: gainsboro;
+    }
+    #IK3{
+        font-size: 12px;
+        color: white;
+        margin-left: 40px;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+#btn1{
+        height: 45px;
+        width: 150px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+
+    #cont16{
+        max-width: 100%;
+        padding: 0% 15%;
+        background-color: black;
+    }
+    .KK{
+        font-family:Dosis;
+        color: white;
+        font-size: 12px;
+        margin-top: 30px;
+       
+    }
+    /* #KKK{
+        font-family:DMsanR;
+        color: white;
+        font-size: 12px;
+       
+    } */
+    .KK1{
+        font-family:Dosis;
+        color: white;
+        font-size: 10px;
+        
+    }
+    .ger{
+        border: 1px solid white;
+    }
+    #GER{
+        font-size: 10px;
+        border-radius: 50px;
+        color: white;
+        width: 80px;
+        background-color: #000000;
+        margin-left: 5px;
+  
+    }
+
+    
+    #eng{
+    font-size: 9px;
+
+    }
+    
+    #English{
+        font-size: 10px;
+            background-color: rgb(105, 103, 103);
+            border-radius: 50px;
+            color: white;
+            width: 70px;  
+    }
+    #endbutton{
+      display: flex;
+      justify-content: flex-end;
+    }
+    /* #k2k2{
+        text-align: center;
+        display: none;
+    } */
+
+    .footer-hr{
+        border: 0.5px solid rgb(61, 59, 44);
+    
+    }

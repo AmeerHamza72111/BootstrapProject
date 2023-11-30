@@ -1,0 +1,515 @@
+<html>
+
+<head>
+
+  <title>Extras1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add Bootstrap CSS from CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Add Bootstrap JavaScript and jQuery from CDN (required for some Bootstrap features) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+<link rel="stylesheet" href="./css/Extras1.css">
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <script src="https://kit.fontawesome.com/1019421737.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <a href="#"><img src="images/hathways-limosines.png" id="logo" alt="Avatar"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Our Fleet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bar" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="form-inline my-2 my-lg-0">
+        <a href="#"><i class="fa fa-phone" style="color: white;"></i></a>
+        <p id="phone">49(0)6926022180</p>
+
+
+        <a href="#"><i class="fa-solid fa-globe" style="color: white;"></i></a>
+        <p id="phone">GER</p>
+        <button class="btn" id="login" type="submit">Login</button>
+        <button class="btn" id="sign" type="submit">Sign up</button>
+
+        <a href="#"><i class="fa-solid fa-bars" style="color: white; " id="twobar"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="cont2">
+    <div class="row">
+      <div class="col-sm-3 ">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex gap-5">
+            <div class="mdclass">
+              <i class="fa-solid fa-car-side" id="ikons"></i>
+            </div>
+            <div class="mdclass mx-3">
+              <p class="AK">Vehicle</p>
+            </div>
+          </div>
+
+          <div class="mdclass">
+            <p class="AK1"> 01</p>
+          </div>
+
+        </div>
+        <hr id="lien">
+      </div>
+
+      <div class="col-sm-3 ">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex gap-5">
+            <div class="mdclass">
+              <i class="fa-solid fa-sliders" id="ikons"></i>
+            </div>
+            <div class="mdclass mx-3">
+              <p class="AK">Extras</p>
+            </div>
+          </div>
+          <div class="mdclass">
+            <p class="AK1"> 02</p>
+          </div>
+
+        </div>
+        <hr id="lien">
+      </div>
+
+      <div class="col-sm-3 ">
+        <div class="d-flex justify-content-between">
+
+          <div class="d-flex gap-5">
+            <div class="mdclass">
+              <i class="fa-solid fa-people-group" id="ikons"></i>
+            </div>
+            <div class="mdclass mx-3">
+              <p class="AK">Details</p>
+            </div>
+          </div>
+          <div class="mdclass">
+            <p class="AK1"> 03</p>
+          </div>
+
+        </div>
+        <hr id="lien">
+      </div>
+
+      <div class="col-sm-3 ">
+        <div class="d-flex justify-content-between">
+
+          <div class="d-flex gap-5">
+            <div class="mdclass">
+              <i class="fa-regular fa-credit-card" id="ikons"></i>
+            </div>
+            <div class="mdclass mx-3">
+              <p class="AK">Payment</p>
+            </div>
+          </div>
+
+          <div class="mdclass">
+            <p class="AK1"> 04</p>
+          </div>
+
+        </div>
+        <hr id="lien">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PASSENGER DETAIL -->
+  <div class="container" id="cont3">
+    <div class="row">
+
+      <div class="col-md-8">
+        <p class=SK> Extra Options</p>
+    
+            <div class="form-control">
+                <input required type="text" name="input" />
+                <label>Flight/train number </label>
+                <div class="border-around"></div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-md-8">
+                    <p class="SK1">Child Seat <button class="btn SK2" type="submit">$12</button></p>
+                    <p class="SK3">Suitable for toddlers weighing 0-18 kg (approx 0 to 4 years).</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+                    <button class="addtocart" id="Plusbtn"><p id="all">+</p></button>
+                    <p class="cart-counter" id="counter">1</p>
+                    <button class="removefromcart" id="Minusbtn"><p id="all">-</p></button>
+                </div>
+
+            </div>
+            <hr id="sline"> </hr>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="SK1">Bouquet of Flower <button class="btn SK2" type="submit">$12</button></p>
+                        <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+                        <button class="addtocart2" id="Plusbtn"><p id="all">+</p></button>
+                        <p class="cart-counter2" id="counter">1</p>
+                        <button class="removefromcart2" id="Minusbtn"><p id="all">-</p></button>
+                    </div>
+                    
+             </div>
+             <hr id="sline"> </hr>
+             <div class="row">
+                <div class="col-md-8">
+                    <p class="SK1">Vodka Bottle<button class="btn SK2"  type="submit">$12</button></p>
+                    <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+                    <button class="addtocart3" id="Plusbtn"><p id="all">+</p></button>
+                    <p class="cart-counter3" id="counter">1</p>
+                    <button class="removefromcart3" id="Minusbtn"><p id="all">-</p></button>
+                </div>
+                <hr id="sline"> </hr>
+         </div> 
+          <hr id="sline">
+          <div class="row">
+            <div class="col-md-8">
+                <p class="SK1">Bouquet of Flower<button class="btn SK2" type="submit">$12</button></p>
+                <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+                <button class="addtocart4" id="Plusbtn"><p id="all">+</p></button>
+                <p class="cart-counter4" id="counter">1</p>
+                <button class="removefromcart4" id="Minusbtn"><p id="all">-</p></button>
+            </div>
+          
+     </div> 
+ <hr id="sline"> </hr>
+ <div class="row">
+    <div class="col-md-8">
+        <p class="SK1">Alcohol Package <button class="btn SK2"  type="submit">$12</button></p>
+        <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+    </div>
+    <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+        <button type="button" class="btn"
+        >  
+            Select 
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </button>
+        <!-- <button type="button" class="btn" id="btn0"><span id="SK4">Select</span><i class="fa-solid fa-arrow-trend-up" id="SK5"></i></button> -->
+    </div>
+</div>
+<hr id="sline"> </hr> 
+
+
+ <div class="row">
+    <div class="col-md-8">
+        <p class="SK1">Airport Assistance and Hostess Service<button class="btn SK2"  type="submit">$12</button></p>
+        <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+    </div>
+    <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+        <button type="button" class="btn">  
+            Select 
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </button>
+        <!-- <button type="button" class="btn" id="btn0"><span id="SK4">Select</span><i class="fa-solid fa-arrow-trend-up" id="SK5"></i></button> -->
+    </div>
+</div>
+<hr id="sline"> </hr> 
+<div class="row">
+    <div class="col-md-8">
+        <p class="SK1">Bodyguard Service<button class="btn SK2"  type="submit">$12</button></p>
+        <p class="SK3">A bouquet of seasonal flower prepared by a local florist.</p>
+    </div>
+    <div class="col-md-4 d-flex justify-content-md-end align-items-center">
+        <button type="button" class="btn">  
+            Select 
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </button>
+        <!-- <button type="button" class="btn" id="btn0"><span id="SK4">Select</span><i class="fa-solid fa-arrow-trend-up" id="SK5"></i></button> -->
+    </div>
+</div>
+<hr id="sline"> </hr> 
+<div class="form-control" id="lolo">
+    <input required type="text" name="input" />
+    <label>Notes for the Chauffeur </label>
+    <div class="border-around"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col">
+            <button type="button" class="btn " id="bttn"><span class="SK23">Continue</span><i
+                class="fa-solid fa-arrow-trend-up SK33" ></i></button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" id="curd2">
+
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="">
+              <p id="CK" class="m-0 p-0">Rides Summary</p>
+            </div>
+            <div class="">
+              <a href="#" id="CK2">Edit</a>
+            </div>
+          </div>
+
+          <a><i class="fa-solid fa-location-dot CK6 mt-5" > </i><span class="CK5">Manchester, UK</span></a><br>
+          <a><i class="fa-solid fa-location-dot " > </i><span class="CK5">London, UK</span></a><br>
+          <a><i class="fa-solid fa-calendar-days" > </i><span class="CK5">Thur, Oct 06, 2022</span></a><br>
+          <a><i class="fa-solid fa-clock " > </i><span class="CK5">6 PM : 15</span></a><br>
+          <img src="images/map.jpg" class="CK6" >
+
+            <div class="d-flex justify-content-between align-items-center m-0 p-0">
+              <div class="">
+                <p class="CK8" class="">Total Distance</p>
+              </div>
+              <div class="">
+                <p class="CK8" class="">Total time</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center m-0 p-0">
+              <div class="">
+                <p class="CK10" class="">311/km/194 miles</p>
+              </div>
+              <div class="">
+                <p class="CK10" class="">3h 43m</p>
+              </div>
+            </div>
+  
+          <hr id="s1line">
+          <p class="CK8">Vehicle</p>
+          <p class="CK10">Mercedes-Benz E220</p>
+          <hr id="s1line">
+          <p class="CK8">Extra Options</p>
+          <p class="CK10">1 x Child Seat -$5.00</p>
+          <p class="CK10">1 x Bouquet of Flower - $75.00</p>
+          <p class="CK10">2 x Vodka Bottle -$78.00</p>
+          <p class="CK10">1 x Bodyguard Service -$750.00</p>
+
+        </div>
+        <div class="card" id="curd2222">
+          <div class="d-flex justify-content-between align-items-center m-0 p-0">
+            <div class="">
+              <p class="CK10">Selected Vehicles</p>
+            </div>
+            <div class="">
+              <p class="CK10" >$174</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center m-0 p-0">
+            <div class="">
+              <p class="CK10">Extras</p>
+            </div>
+            <div class="">
+              <p class="CK10">$90.25</p>
+            </div>
+          </div>
+
+          <hr id="s1line">
+          <div class="d-flex justify-content-between align-items-center m-0 p-0">
+            <div class="">
+              <p  class="LK7">Total</p>
+            </div>
+            <div class="">
+              <p class="LK7">$909.47</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" id="cont15">
+    
+    <div class="d-flex justify-content-between align-items-center m-0 p-0">
+      <div class="">
+        <a href="#"><img src="images/hathways-limosines.png" id="logo2" alt="Avatar"></a>
+      </div>
+      <div class="">
+        <div >
+          <a href="#"><i class="fa fa-phone" style="color: white;" id="phone1"></i></a>
+          <span id="Number">+49 (0) 69 26022180</span>
+      </div>
+      
+      </div>
+      <div class="">
+        <div id="BRAND">
+          <a href="#"><i class="fa-brands fa-facebook"
+              style="color: white; display: inline-block; margin-right: 10px;"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"
+              style="color: white; display: inline-block; margin-right: 10px;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"
+              style="color: white; display: inline-block; margin-right: 10px;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"
+              style="color: white; display: inline-block; margin-right: 10px;"></i></a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container" id="cont155">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <p id="JK2">Company</p>
+          <ul id="ul">
+            <li><a class="nav-link" id="JK3" href="#">About us</a></li>
+            <li><a class="nav-link" id="JK3" href="#">Our offerings</a></li>
+            <li><a class="nav-link" id="JK3" href="#">Newroom us</a></li>
+            <li><a class="nav-link" id="JK3" href="#">Investors</a></li>
+            <li><a class="nav-link" id="JK3" href="#">Blogs</a></li>
+            <li><a class="nav-link" id="JK3" href="#">Career</a></li>
+            <li><a class="nav-link" id="JK33" href="#">Gift cards</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p id="JK10">Top Cities</p>
+          <ul id="ul">
+            <li><a class="nav-link" id="JK4" href="#">New York</a></li>
+            <li><a class="nav-link" id="JK4" href="#">London</a></li>
+            <li><a class="nav-link" id="JK4" href="#">Berlin</a></li>
+            <li><a class="nav-link" id="JK4" href="#">Los Angeles</a></li>
+            <li><a class="nav-link" id="JK4" href="#">Paris</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col">
+          <p id="JK11">Explore</p>
+          <ul id="ul">
+            <li><a class="nav-link" id="JK6" href="#">Intercity Rides</a></li>
+            <li><a class="nav-link" id="JK6" href="#">Limousine Service</a></li>
+            <li><a class="nav-link" id="JK6" href="#">Chauffeur Service</a></li>
+            <li><a class="nav-link" id="JK6" href="#">Private Car Service</a></li>
+            <li><a class="nav-link" id="JK6" href="#">Ground Transportation</a></li>
+            <li><a class="nav-link" id="JK6" href="#">Airport Transfer</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p id="JK12">Classes</p>
+          <ul id="ul">
+            <li><a class="nav-link" id="JK8" href="#">Business</a></li>
+            <li><a class="nav-link" id="JK8" href="#">First</a></li>
+            <li><a class="nav-link" id="JK8" href="#">XL</a></li>
+            <li><a class="nav-link" id="JK8" href="#">Assistant</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 d-flex justify-content-md-end">
+      <div>
+        <p id="JK13">Download The App</p>
+        <div class="d-flex flex-column justify-content-md-end">
+          <button type="button" class="btn-dark" id="BTM"><a href="#"><i class="fa-brands fa-apple" id="apple"
+                style="color:white"></i></a>
+            <p id="lin1"> | </p>
+            <p id="IK2">Download on the</p>
+            <p id="IK3">Apple Store</p>
+          </button>
+          <button type="button" class="btn-dark" id="BTM1"><a href="#"><i class="fa-brands fa-google-play"
+                id="apple" style="color:white"></i></a>
+            <p id="lin1"> | </p>
+            <p id="IK2">Get in on</p>
+            <p id="IK3">Play Store</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" id="cont16">
+
+       
+          <div class="d-flex justify-content-between align-items-center m-0 p-0">
+            <div class="">
+              <p id="KK"> HATHWAY-LIMOUSINES 2023 </p>
+            </div>
+            <div class="" id="KKK">
+              <ul style="list-style: none; padding: 0;">
+                <li class="KK1" style="display: inline-block; padding-right: 8px;">Terms</li>
+                <li class="KK1" style="display: inline-block; padding-right: 8px;">Privacy policy</li>
+                <li class="KK1" style="display: inline-block; padding-right: 8px;">Legal notice</li>
+                <li class="KK1" style="display: inline-block; padding-right: 8px;">Accessibility</li>
+              </ul>
+            </div>
+            <div class="">
+              <button class="btn btn-dark" id="GER" type="submit"><i class="fa-solid fa-location-dot" id="eng"
+                style="color: white"></i> Germany
+            </button>
+            <button class="btn btn-dark" id="English" type="submit">
+              <i class="fa-solid fa-earth-americas" id="eng" style="color: white"></i> English
+            </button>
+            </div>
+          </div>
+          <div class="" id="K2k2">
+            <ul style="list-style: none; padding: 0;">
+              <li class="KK1" style="display: inline-block; padding-right: 8px;">Terms</li>
+              <li class="KK1" style="display: inline-block; padding-right: 8px;">Privacy policy</li>
+              <li class="KK1" style="display: inline-block; padding-right: 8px;">Legal notice</li>
+              <li class="KK1" style="display: inline-block; padding-right: 8px;">Accessibility</li>
+            </ul>
+          </div>
+        
+        </div>
+
+
+        <script src="./js/Extras.js"></script>
+</body>
+</html>
